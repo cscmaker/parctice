@@ -1,8 +1,7 @@
 package parctice
 
-//import "fmt"
+import "fmt"
 
 func Greet(name string) string {
-	//return fmt.Sprintf("%s, 你好！", name)
-	return ""
+	return fmt.Sprintf("%s, 你好！Version 2.0.0", name)
 }
